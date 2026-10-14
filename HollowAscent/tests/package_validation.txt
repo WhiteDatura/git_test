@@ -1,0 +1,14 @@
+Godot Project Manager-style packaging validation
+
+ZIP CRC validation: passed.
+Exactly one top-level HollowAscent directory: passed.
+Explicit directory entries before all files: passed.
+Extraction without automatic file-parent creation: zero failures.
+Generated .godot cache excluded: passed.
+Fresh extracted Godot 4.4.1 editor import: passed.
+Fresh extracted standard suite: 139 combat assertions, five normal-only encounter
+traversals (all 3 HP), source audio and loop checks passed.
+Full-ascent pass: not claimed; see full_traversal.txt.
+
+Reproduce with tools/package_project.py. The tool prints the final archive SHA-256
+and writes its exact fresh-checks transcript next to the output ZIP.

@@ -1,0 +1,241 @@
+import
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+first_scan_filesystem: begin: Project initialization steps: 5
+	first_scan_filesystem: step 0: Scanning file structure...
+	first_scan_filesystem: step 1: Loading global class names...
+	first_scan_filesystem: step 2: Verifying GDExtensions...
+	first_scan_filesystem: step 3: Creating autoload scripts...
+	first_scan_filesystem: step 4: Initializing plugins...
+	first_scan_filesystem: step 5: Starting file scan...
+first_scan_filesystem: end
+update_scripts_classes: begin: Registering global classes... steps: 2
+	update_scripts_classes: step 0: 
+	update_scripts_classes: step 1: 
+update_scripts_classes: end
+_update_scan_actions: begin: Scanning actions... steps: 17
+	_update_scan_actions: step 0: enemy_death.png
+	_update_scan_actions: step 1: enemy_hit.png
+	_update_scan_actions: step 2: idle.png
+	_update_scan_actions: step 3: lunge_miss.png
+	_update_scan_actions: step 4: lunge_move.png
+	_update_scan_actions: step 5: lunge_start.png
+	_update_scan_actions: step 6: normal_contact.png
+	_update_scan_actions: step 7: opening.png
+	_update_scan_actions: step 8: parry_down.png
+	_update_scan_actions: step 9: parry_left.png
+	_update_scan_actions: step 10: parry_right.png
+	_update_scan_actions: step 11: parry_up.png
+	_update_scan_actions: step 12: perfect_contact.png
+	_update_scan_actions: step 13: platform_landing.png
+	_update_scan_actions: step 14: projectile_readability.png
+	_update_scan_actions: step 15: rebound.png
+	_update_scan_actions: step 16: title.png
+_update_scan_actions: end
+reimport: begin: (Re)Importing Assets steps: 16
+	reimport: step 0: Preparing files to reimport...
+	reimport: step 1: Preparing files to reimport...
+	reimport: step 2: Preparing files to reimport...
+	reimport: step 3: Preparing files to reimport...
+	reimport: step 4: Preparing files to reimport...
+	reimport: step 5: Preparing files to reimport...
+	reimport: step 6: Preparing files to reimport...
+	reimport: step 7: Preparing files to reimport...
+	reimport: step 8: Preparing files to reimport...
+	reimport: step 9: Preparing files to reimport...
+	reimport: step 10: Preparing files to reimport...
+	reimport: step 11: Preparing files to reimport...
+	reimport: step 12: Preparing files to reimport...
+	reimport: step 13: Preparing files to reimport...
+	reimport: step 14: Preparing files to reimport...
+	reimport: step 15: Preparing files to reimport...
+	reimport: step 0: Executing pre-reimport operations...
+	reimport: step 0: enemy_death.png
+	reimport: step 1: enemy_hit.png
+	reimport: step 2: idle.png
+	reimport: step 3: lunge_miss.png
+	reimport: step 4: lunge_move.png
+	reimport: step 5: lunge_start.png
+	reimport: step 6: normal_contact.png
+	reimport: step 7: opening.png
+	reimport: step 8: parry_down.png
+	reimport: step 9: parry_left.png
+	reimport: step 10: parry_right.png
+	reimport: step 11: parry_up.png
+	reimport: step 12: perfect_contact.png
+	reimport: step 13: platform_landing.png
+	reimport: step 14: projectile_readability.png
+	reimport: step 15: rebound.png
+	reimport: step 16: Finalizing Asset Import...
+reimport: end
+update_script_paths_documentation: begin: Updating scripts documentation steps: 2
+	update_script_paths_documentation: step 0: game.gd
+	update_script_paths_documentation: step 1: combat.gd
+update_script_paths_documentation: end
+reimport: begin: (Re)Importing Assets steps: 16
+	reimport: step 0: Executing post-reimport operations...
+reimport: end
+loading_editor_layout: begin: Loading editor steps: 5
+	loading_editor_layout: step 0: Loading editor layout...
+loading_editor_layout: end
+
+combat
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+CLICK_OK immediate directional parry / rear unsafe / cancellation
+COMBAT_OK 139 checks: directional input, swept sectors, rewards, lunge, health, platforms, pacing, audio
+
+encounter_0
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+CLICK_OK immediate directional parry / rear unsafe / cancellation
+ENCOUNTER_OK rows=0..5 HP=3 cuts=4
+
+encounter_30
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+CLICK_OK immediate directional parry / rear unsafe / cancellation
+SECTION 1 at 0.02 sec / height 6924
+ENCOUNTER_OK rows=30..35 HP=3 cuts=6
+
+encounter_60
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+CLICK_OK immediate directional parry / rear unsafe / cancellation
+SECTION 2 at 0.02 sec / height 13824
+ENCOUNTER_OK rows=60..65 HP=3 cuts=6
+
+encounter_90
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+CLICK_OK immediate directional parry / rear unsafe / cancellation
+SECTION 3 at 0.02 sec / height 20724
+ENCOUNTER_OK rows=90..95 HP=3 cuts=5
+
+encounter_120
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+CLICK_OK immediate directional parry / rear unsafe / cancellation
+SECTION 4 at 0.02 sec / height 27624
+ENCOUNTER_OK rows=120..125 HP=3 cuts=7
+
+audio_sources
+{
+  "arrow.wav": {
+    "seconds": 0.18,
+    "channels": 1,
+    "peak_dbfs": -7.33
+  },
+  "blade.wav": {
+    "seconds": 0.45,
+    "channels": 1,
+    "peak_dbfs": -7.33
+  },
+  "draw.wav": {
+    "seconds": 0.23,
+    "channels": 1,
+    "peak_dbfs": -7.13
+  },
+  "enemy_hit.wav": {
+    "seconds": 0.3,
+    "channels": 1,
+    "peak_dbfs": -4.88
+  },
+  "fall.wav": {
+    "seconds": 0.46,
+    "channels": 1,
+    "peak_dbfs": -13.98
+  },
+  "flyby.wav": {
+    "seconds": 0.19,
+    "channels": 1,
+    "peak_dbfs": -13.98
+  },
+  "land.wav": {
+    "seconds": 0.22,
+    "channels": 1,
+    "peak_dbfs": -7.33
+  },
+  "lunge.wav": {
+    "seconds": 0.3,
+    "channels": 1,
+    "peak_dbfs": -6.02
+  },
+  "miss.wav": {
+    "seconds": 0.27,
+    "channels": 1,
+    "peak_dbfs": -7.33
+  },
+  "music_calm.wav": {
+    "seconds": 24.0,
+    "channels": 2,
+    "peak_dbfs": -5.68,
+    "loop_boundary_step": 0.000275
+  },
+  "music_combat.wav": {
+    "seconds": 24.0,
+    "channels": 2,
+    "peak_dbfs": -6.94,
+    "loop_boundary_step": 0.000977
+  },
+  "music_danger.wav": {
+    "seconds": 24.0,
+    "channels": 2,
+    "peak_dbfs": -6.94,
+    "loop_boundary_step": 0.000824
+  },
+  "paper_release.wav": {
+    "seconds": 0.4,
+    "channels": 1,
+    "peak_dbfs": -9.9
+  },
+  "parry.wav": {
+    "seconds": 0.34,
+    "channels": 1,
+    "peak_dbfs": -3.22
+  },
+  "perfect.wav": {
+    "seconds": 0.46,
+    "channels": 1,
+    "peak_dbfs": -1.72
+  },
+  "rebound.wav": {
+    "seconds": 0.23,
+    "channels": 1,
+    "peak_dbfs": -7.33
+  },
+  "sheath.wav": {
+    "seconds": 0.18,
+    "channels": 1,
+    "peak_dbfs": -13.98
+  },
+  "spirit.wav": {
+    "seconds": 0.4,
+    "channels": 1,
+    "peak_dbfs": -9.9
+  },
+  "summit.wav": {
+    "seconds": 3.0,
+    "channels": 1,
+    "peak_dbfs": -11.7
+  },
+  "sweep.wav": {
+    "seconds": 0.28,
+    "channels": 1,
+    "peak_dbfs": -8.4
+  },
+  "warning.wav": {
+    "seconds": 0.4,
+    "channels": 1,
+    "peak_dbfs": -7.33
+  },
+  "wind.wav": {
+    "seconds": 24.0,
+    "channels": 1,
+    "peak_dbfs": -13.98,
+    "loop_boundary_step": 0.0
+  }
+}
+AUDIO_OK sources, synchronized loops
+
+ALL CHECKS PASSED

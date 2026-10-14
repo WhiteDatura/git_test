@@ -1,0 +1,290 @@
+HISTORICAL REFERENCE ONLY — superseded by the 0.4 README and requested continuation pass.
+
+Got you—this is a completely separate, original game. It should not inspect, modify, reference, or reuse anything from the previous game/project. Here’s the corrected prompt:
+
+Create a brand-new, completely original 2D game in Godot 4.x.
+
+This is a separate project. Create it inside its own new folder and initialize all project files from scratch.
+
+Do not inspect, modify, import, reference, or reuse:
+
+- any previous Godot project;
+- any existing game’s code or systems;
+- any previous characters, lore, locations, names, scenes, assets, or narrative;
+- any Prototype 001/002 content;
+- any Night Cat content.
+
+The attached image is only a visual mood and art-direction reference. Create original characters, enemies, environments, animations, and designs. Do not reproduce the pictured character exactly.
+
+## Goal
+
+Build a small but polished 2D vertical climbing game inspired by the tension of games like Jump King, but with an original movement system based on parrying enemies and projectiles.
+
+The player cannot jump normally.
+
+Instead, they must parry incoming attacks to launch themselves upward. Every successful parry generates recoil and momentum, allowing the player to continue climbing.
+
+If the player:
+
+- gets hit;
+- mistimes a parry;
+- misses the next parry opportunity;
+- or goes too long without parrying anything;
+
+they lose momentum and begin falling, potentially losing significant progress.
+
+The central experience should be:
+
+> Climb by maintaining a dangerous rhythm of perfectly timed parries.
+
+## Scope
+
+Keep the project deliberately small and achievable.
+
+Create:
+
+- One complete vertical level.
+- Approximately 3–5 minutes of gameplay for a successful run.
+- A title screen with Play and Quit.
+- A short visual tutorial.
+- Several increasingly difficult parry sequences.
+- Sparse recovery ledges.
+- A dramatic final ascent.
+- A peaceful summit and completion screen.
+- Quick restart functionality.
+- Completion time, number of falls, and best parry chain.
+- A locally saved best time.
+
+Do not add dialogue systems, inventories, skill trees, shops, multiplayer, procedural world generation, or unnecessary architecture.
+
+Focus development time on the core mechanic, visual identity, responsiveness, and polish.
+
+## Controls
+
+Use minimal controls:
+
+- A/D or Left/Right: limited aerial horizontal movement.
+- Space or primary action button: parry.
+- R: restart the run.
+- Escape: pause.
+
+The player has no conventional jump button. Successful parries are the primary source of upward movement.
+
+## Parry movement
+
+When the player successfully parries an attack:
+
+- The attack is destroyed, deflected, or redirected.
+- The player is launched upward by the impact.
+- Horizontal input slightly influences the launch direction.
+- The momentum timer is refreshed.
+- The parry chain increases.
+
+The player must use incoming attacks almost like temporary platforms, chaining them together to ascend.
+
+Add two types of successful parry:
+
+### Normal parry
+
+A correctly timed parry that gives the player a reliable upward launch.
+
+### Perfect parry
+
+A parry performed during the center of the timing window.
+
+A perfect parry should provide:
+
+- a slightly stronger launch;
+- a sharper sound;
+- a brief crimson flash;
+- stronger ink particles;
+- a tiny moment of slow motion;
+- and more dramatic hit-stop.
+
+Do not make perfect parries mandatory for normal progression.
+
+Parry spamming should not work. Include a short recovery period after each attempt while keeping the controls responsive.
+
+## Momentum and falling
+
+After every successful parry, the player receives temporary upward momentum.
+
+If another attack is not parried before the momentum period expires:
+
+- upward speed fades;
+- gravity becomes stronger;
+- the character begins falling;
+- the current chain ends.
+
+Communicate the remaining momentum through the character’s visuals rather than a large conventional timer. For example, an ink aura around the character could gradually fade or break apart.
+
+Getting hit should immediately break momentum and send the player falling.
+
+Falling should usually cost vertical progress rather than immediately displaying a game-over screen.
+
+Include a few sparse recovery ledges throughout the level. Landing on one prevents the player from falling farther. Falling below the current recovery area returns the player to the most recent safe ledge.
+
+Keep these recovery points limited so mistakes remain meaningful.
+
+## Enemies and hazards
+
+Create a small set of original hazards:
+
+1. An ink archer that fires a clearly telegraphed straight projectile.
+2. A floating paper spirit that releases a slow homing attack.
+3. A masked duelist that performs a close-range sweeping strike.
+4. A hanging shrine mechanism that releases falling ink blades or debris.
+
+Every attack must have:
+
+- a distinct anticipation pose;
+- a readable sound cue;
+- a clear visual telegraph;
+- a consistent timing pattern;
+- and an accurate visible hitbox.
+
+The first encounters should teach each attack separately. Later sequences should combine hazards and require the player to decide which attack to parry next.
+
+Never create unavoidable or unreadable attack combinations.
+
+## Level structure
+
+Build one continuous handcrafted vertical ascent:
+
+1. A quiet starting ledge that teaches the first parry.
+2. Broken cliffs with simple projectile chains.
+3. A windy vertical passage requiring horizontal correction.
+4. A shrine section combining several attack types.
+5. A difficult final chain with several consecutive parries.
+6. A silent summit that contrasts with the intensity of the climb.
+
+The camera should show enough space above the player to understand the next threat.
+
+Do not make the first version endlessly or randomly generated. The level should be deliberately designed and consistently testable.
+
+## Original visual direction
+
+Use the attached image only as a broad stylistic reference.
+
+Create an original visual identity using:
+
+- black-and-white ink illustration;
+- an off-white textured-paper background;
+- rough brush strokes;
+- imperfect hand-drawn edges;
+- heavy black silhouettes;
+- large areas of negative space;
+- fragmented cliffs painted with dry-brush textures;
+- flowing cloth and wind effects;
+- ink splatters and brush trails during movement;
+- minimal interface elements that feel integrated into the artwork.
+
+Use deep crimson as the only major accent color. Reserve it for:
+
+- dangerous attacks;
+- perfect-parry flashes;
+- important warnings;
+- and small interface highlights.
+
+Design an original player character: a mysterious travelling swordsman with a strong, immediately readable silhouette. The character can have a broad hat and wind-torn clothing, but must not be a direct recreation of the reference image or an existing copyrighted character.
+
+Create an original world, title, character design, enemy designs, and symbols specifically for this game.
+
+If image-generation tools are available, use them to create original assets. Otherwise, use procedural drawing, shaders, particles, vector shapes, and hand-drawn-style placeholder textures. Do not stop development because final art assets are unavailable.
+
+## Animation and effects
+
+Use a few expressive poses rather than attempting expensive frame-by-frame animation.
+
+Include:
+
+- subtle idle movement;
+- cloak and fabric motion;
+- rising and falling poses;
+- a fast sword-parry animation;
+- recoil after impact;
+- landing animation;
+- enemy anticipation poses;
+- ink movement trails;
+- wind particles;
+- ink splashes on successful parries.
+
+Successful parries should feel powerful through:
+
+- brief hit-stop;
+- restrained camera shake;
+- a sharp impact flash;
+- an ink-burst effect;
+- a directional trail;
+- and a strong sound cue.
+
+Keep these effects brief and readable.
+
+## Audio
+
+Use original or royalty-free placeholder audio for:
+
+- normal parries;
+- perfect parries;
+- enemy attack warnings;
+- sword movement;
+- falling;
+- landing;
+- wind ambience;
+- and summit ambience.
+
+Use restrained atmospheric music or ambience. The audio may become subtly more intense as the player’s parry chain increases.
+
+## Fairness and accessibility
+
+The game should be challenging but predictable.
+
+Include:
+
+- input buffering;
+- a readable parry area;
+- fair and consistent attack timings;
+- optional reduced camera shake;
+- optional high-contrast danger indicators;
+- immediate retries after failure.
+
+Centralize all important tuning values so they can easily be changed:
+
+- gravity;
+- horizontal control;
+- normal parry window;
+- perfect-parry window;
+- parry cooldown;
+- launch strength;
+- momentum duration;
+- attack speeds;
+- checkpoint positions;
+- camera shake strength.
+
+## Development process
+
+Create the entire project from scratch in a new, clearly named folder.
+
+Then:
+
+1. Implement the complete playable loop with temporary original visuals.
+2. Build the entire vertical level.
+3. Confirm that every section can be completed.
+4. Tune the parry timing, launch force, gravity, and recovery.
+5. Replace temporary presentation with the original ink-brush style.
+6. Add animation, particles, audio, hit-stop, and camera effects.
+7. Playtest the complete ascent repeatedly.
+8. Fix all errors and package the finished project.
+
+Do not only provide instructions or isolated code examples. Actually create all required project files and deliver a playable game.
+
+When finished, provide:
+
+- the complete new Godot project;
+- the exact project folder location;
+- controls;
+- instructions for launching it;
+- a list of the main adjustable tuning values;
+- and any known limitations.
+
+The finished result should feel like a small, original, intentionally designed game—not a generic platformer template and not an extension of any previous project.

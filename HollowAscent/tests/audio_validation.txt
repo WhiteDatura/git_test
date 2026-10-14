@@ -1,0 +1,122 @@
+{
+  "arrow.wav": {
+    "seconds": 0.18,
+    "channels": 1,
+    "peak_dbfs": -7.33
+  },
+  "blade.wav": {
+    "seconds": 0.45,
+    "channels": 1,
+    "peak_dbfs": -7.33
+  },
+  "draw.wav": {
+    "seconds": 0.23,
+    "channels": 1,
+    "peak_dbfs": -7.13
+  },
+  "enemy_hit.wav": {
+    "seconds": 0.3,
+    "channels": 1,
+    "peak_dbfs": -4.88
+  },
+  "fall.wav": {
+    "seconds": 0.46,
+    "channels": 1,
+    "peak_dbfs": -13.98
+  },
+  "flyby.wav": {
+    "seconds": 0.19,
+    "channels": 1,
+    "peak_dbfs": -13.98
+  },
+  "land.wav": {
+    "seconds": 0.22,
+    "channels": 1,
+    "peak_dbfs": -7.33
+  },
+  "lunge.wav": {
+    "seconds": 0.3,
+    "channels": 1,
+    "peak_dbfs": -6.02
+  },
+  "miss.wav": {
+    "seconds": 0.27,
+    "channels": 1,
+    "peak_dbfs": -7.33
+  },
+  "music_calm.wav": {
+    "seconds": 24.0,
+    "channels": 2,
+    "peak_dbfs": -5.68,
+    "loop_boundary_step": 0.000275
+  },
+  "music_combat.wav": {
+    "seconds": 24.0,
+    "channels": 2,
+    "peak_dbfs": -6.94,
+    "loop_boundary_step": 0.000977
+  },
+  "music_danger.wav": {
+    "seconds": 24.0,
+    "channels": 2,
+    "peak_dbfs": -6.94,
+    "loop_boundary_step": 0.000824
+  },
+  "paper_release.wav": {
+    "seconds": 0.4,
+    "channels": 1,
+    "peak_dbfs": -9.9
+  },
+  "parry.wav": {
+    "seconds": 0.34,
+    "channels": 1,
+    "peak_dbfs": -3.22
+  },
+  "perfect.wav": {
+    "seconds": 0.46,
+    "channels": 1,
+    "peak_dbfs": -1.72
+  },
+  "rebound.wav": {
+    "seconds": 0.23,
+    "channels": 1,
+    "peak_dbfs": -7.33
+  },
+  "sheath.wav": {
+    "seconds": 0.18,
+    "channels": 1,
+    "peak_dbfs": -13.98
+  },
+  "spirit.wav": {
+    "seconds": 0.4,
+    "channels": 1,
+    "peak_dbfs": -9.9
+  },
+  "summit.wav": {
+    "seconds": 3.0,
+    "channels": 1,
+    "peak_dbfs": -11.7
+  },
+  "sweep.wav": {
+    "seconds": 0.28,
+    "channels": 1,
+    "peak_dbfs": -8.4
+  },
+  "warning.wav": {
+    "seconds": 0.4,
+    "channels": 1,
+    "peak_dbfs": -7.33
+  },
+  "wind.wav": {
+    "seconds": 24.0,
+    "channels": 1,
+    "peak_dbfs": -13.98,
+    "loop_boundary_step": 0.0
+  },
+  "godot_overlap_mix": {
+    "seconds": 26.083,
+    "peak_dbfs": -15.39,
+    "clipped_samples": 0
+  }
+}
+AUDIO_OK sources, synchronized loops, actual stereo overlap mix

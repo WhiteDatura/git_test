@@ -1,0 +1,59 @@
+import
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started Loading editor (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Loading editor layout...[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | Loading docks...[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m
+
+combat
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+CLICK_OK immediate parry / all-side protection / cancellation
+COMBAT_OK health / invulnerability / death-restart / Edge rewards-cap-cost / lunge kill-refund-rebound / miss-fall
+
+encounter_0
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+CLICK_OK immediate parry / all-side protection / cancellation
+ENCOUNTER_OK rows=0..5 HP=3 cuts=6
+
+encounter_30
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+CLICK_OK immediate parry / all-side protection / cancellation
+SECTION 1 at 0.02 sec / height 6924
+ENCOUNTER_OK rows=30..35 HP=3 cuts=6
+
+encounter_60
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+CLICK_OK immediate parry / all-side protection / cancellation
+SECTION 2 at 0.02 sec / height 13824
+ENCOUNTER_OK rows=60..65 HP=3 cuts=5
+
+encounter_90
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+CLICK_OK immediate parry / all-side protection / cancellation
+SECTION 3 at 0.02 sec / height 20724
+ENCOUNTER_OK rows=90..95 HP=3 cuts=5
+
+encounter_120
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+CLICK_OK immediate parry / all-side protection / cancellation
+SECTION 4 at 0.02 sec / height 27624
+ENCOUNTER_OK rows=120..125 HP=3 cuts=6
+
+ALL CHECKS PASSED

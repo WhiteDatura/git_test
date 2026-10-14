@@ -1,0 +1,5 @@
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+CLICK_OK immediate directional parry / rear unsafe / cancellation
+SECTION 1 at 34.80 sec / height 6930
+TEST_DEATH row=39 time=188.25

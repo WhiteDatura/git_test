@@ -1,0 +1,53 @@
+extends RefCounted
+## The complete movement and encounter tuning surface. Units: pixels / seconds.
+const GRAVITY: float = 450.0
+const FALL_GRAVITY: float = 770.0
+const MAX_FALL_SPEED: float = 940.0
+const AIR_SPEED: float = 260.0
+const GROUND_SPEED: float = 210.0
+const HORIZONTAL_ACCEL: float = 1450.0
+const LAUNCH_SPEED: float = 480.0
+const PERFECT_LAUNCH_BONUS: float = 18.0
+const LAUNCH_STEER: float = 38.0
+const MOMENTUM_DURATION: float = 1.43
+const PARRY_WINDOW: float = 0.23
+const PERFECT_WINDOW: float = 0.055
+const PARRY_COOLDOWN: float = 0.30
+const CUT_HALF_ANGLE: float = deg_to_rad(75.0)
+const PERFECT_HALF_ANGLE: float = deg_to_rad(55.0)
+const MIN_IMPACT_GAP: float = 0.34
+const ENEMY_RELOAD: float = 2.10
+const INPUT_BUFFER: float = 0.12
+const PARRY_RADIUS: float = 72.0
+const PLAYER_HIT_RADIUS: float = 14.0
+const PLAYER_FOOT: float = 24.0
+const WARNING_DURATION: float = 0.66
+const PROJECTILE_FLIGHT_TIME: float = 0.40
+const PROJECTILE_SPEED: float = 710.0
+const HOMING_SPEED: float = 420.0
+const HOMING_TURN: float = 2.0
+const STRIKE_RADIUS: float = 72.0
+const ROW_HEIGHT: float = 230.0
+const ROWS_PER_SECTION: int = 30
+const CHECKPOINT_ROWS: Array[int] = [0, 30, 60, 90, 120]
+const CAMERA_SHAKE: float = 1.7
+const NORMAL_HITSTOP: float = 0.023
+const PERFECT_HITSTOP: float = 0.041
+const PERFECT_SLOWMO: float = 0.055
+const FALL_RESET_DISTANCE: float = 540.0
+const WIND_FORCE: float = 33.0
+
+const OPENING_WARNING: float = 1.05
+const OPENING_SPEED: float = 340.0
+const REBOUND_SPEED: float = 500.0
+const KILL_HITSTOP: float = 0.055
+const AUDIO_VOICE_DB: float = -16.0
+const AUDIO_MAX_VOICES: int = 10
+const MUSIC_CALM_DB: float = -27.0
+const MUSIC_COMBAT_DB: float = -29.0
+const MUSIC_DANGER_DB: float = -30.0
+const MUSIC_DANGER_SHOTS: int = 4
+const MUSIC_DUCK_DB: float = 10.0
+
+const OPENING_LAUNCH: float = 620.0
+const OPENING_MOMENTUM: float = 2.45

@@ -1,0 +1,22 @@
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:360)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+RENDER_OK opening
+RENDER_OK idle
+RENDER_OK parry_left
+RENDER_OK parry_right
+RENDER_OK parry_up
+RENDER_OK parry_down
+RENDER_OK normal_contact
+RENDER_OK perfect_contact
+RENDER_OK lunge_start
+RENDER_OK lunge_move
+RENDER_OK lunge_miss
+RENDER_OK enemy_hit
+RENDER_OK enemy_death
+RENDER_OK rebound
+RENDER_OK platform_landing
+RENDER_OK projectile_readability
+RENDER_OK title
